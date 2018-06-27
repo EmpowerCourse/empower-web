@@ -1,0 +1,85 @@
+<div class='row' style='padding-bottom: 15px; padding-top: 15px;'>
+  <div class='col-xs-12 text-center'>
+    <img src='/images/empower_logo.png' alt='Empower - A technology training course from Sightsource' style='height: 120px;'/>
+  </div>
+</div>
+<div id='bullet-row' class='row' style='background-color: #eeeeee;'>
+  <div class='col-xs-10 col-xs-offset-1'>
+    <ol class='data'>
+      <li>Please check out the course Code of Conduct <a target="_blank" href="https://empowercourse.github.io/course_content/code_of_conduct.html">here</a></li>
+      <li>We are going to be using <a target='_blank' href='https://slack.com'>Slack</a> to communicate in real time during the class.  We will add you to the class group in the coming days by email address.</li>
+      <li>You should have already received your <a href='http://classmarker.com' target='_blank'>Classmarker.com</a> sign in.  Please log in and ensure it's working for you.</li>
+      <li>During the HTML &amp; CSS training you'll create an online profile.  Please update your resume so that you'll have current information to use for the exercise.  There will be a day or two scheduled in each city during which head shots will be taken by a professional photographer.  You'll want to come well dressed on those 1 or 2 days.</li>
+      <li>Part of the course will show you how to use cloud resources.  In preparation go through and create (free for 1 year) accounts on each of 3 cloud platforms. Details on setup is the <a href='https://empowercourse.github.io/course_content/installations.html' target='_blank'>installations page</a>.
+      <li>As a professional developer you must know about source code control.  We will start this training on day 1.  In preparation please create a github account. - <a class='inverse' target='_blank' href='https://empowercourse.github.io/course_content/installations.html'>instructions on the installations page</a>.  Once you've created your github account send us your github username so that we can give you rights to class group areas.</li>
+      <li>The online version of the daily course agenda will be posted here: <a target="_blank" href="https://empowercourse.github.io/course_content/">here</a></li>
+      <li>Finally, if you are just learning to type please practice.  You won't want your fingers slowing you down.</li>
+    </ul>
+    <p>Details specific to where classes are going to be held and other logistics are below.</p>
+  </div>
+</div>
+<div class="row text-center">
+  <p>Class if from June 4 - July 27, with the week of July 4th off</p>
+  <p>Class will be held Monday - Friday 8:30am - 5:30pm</p>
+</div>
+<div class='row' id='apply-row' style='padding-top: 0;'>
+  <div class='col-md-10 col-md-offset-1 col-xs-12'>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role='tablist'>
+  	<li class="active"><a href="#ws" data-toggle="tab">Winston-Salem</a></li>
+  	<li><a href="#rva" data-toggle="tab">Richmond</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active clearfix" id="ws">
+        <div class='faq-title'>Where is the class?</div>
+        <div class='faq-answer'>
+          <p>We will be in Room 2440 at this location:</p>
+          <p>
+          Small Business Center at Forsyth Technical Community College (Innovation Quarter)<br/>
+          525 Vine St<br/>
+          Winston-Salem, NC 27101<br/>
+          </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.698502710275!2d-80.24240603430644!3d36.10083693009868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4268bfdea2f88dcd!2sSmall+Business+Center+at+Forsyth+Technical+Community+College!5e0!3m2!1sen!2sus!4v1527115784139" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class='faq-title'>If I drive there where should I park?</div>
+        <div class='faq-answer'>
+<p>There is a large parking lot <span style='text-decoration: underline;'>BEHIND</span> the building.  The entrance bar will be down.  Press the button to speak with the attendant and mention that you are with the Empower course being held in the Forsyth Tech Small Business Center.</p>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane clearfix" id="rva">
+        <div class='faq-title'>Where is the class?</div>
+        <div class='faq-answer'>
+          <p>Grace & Broad Residence 2</p>
+          <p>Innovate Living Learning Program</p>
+          <p>1010 West Grace St.</p>
+          <p>Room 1231</p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1350876024617!2d-77.45563668516988!3d37.55188097980055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1114f363f7c39%3A0xdfbafd6e17ec0ea!2s1010+W+Grace+St%2C+Richmond%2C+VA+23220!5e0!3m2!1sen!2sus!4v1527169208633" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+          <img style="margin-right: 150px;" class="pull-right" height="350" width="350" src="/images/parking.png" title="parking" alt="parking">
+
+          <p>
+            <img height="334" width="857" alt="building entrance" title="building entrance" src="/images/vcu_entrance.png" />
+          </p>
+
+          <p>Enter off Grace Street. Walk past the security desk down the hallway on the left hand side of the security desk. The large classroom is to the left past the doorway.</p>
+
+          <p>Wifi: use VCU Guest Wireless (it will prompt you for your email address to connect)</p>
+        </div>
+
+        <div class='faq-title'>If I drive there where should I park?</div>
+        <div class='faq-answer'>
+          <p>Paid parking ($10/day) in the West Broad Street Parking Deck.</p>
+          <p>Street parking in the surrounding neighborhood is also available given the day/time.</p>
+          <p>It shouldn't be as difficult during the summer to find street parking, but please be aware of day / time and permit restrictions.</p>
+          <p>For example, Grace Street west of Ryland until Lombardy has parking, but one side is closed on Mondays and the other side is closed on Tuesdays.  Everything is clearly marked, just make sure to look out for the signs.</p>
+          <p>If you don't want to risk not getting a parking spot or don't want to spend the time in the mornings looking for spaces, the nearby parking decks are going to the most reliable options.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render Recruit2018.PageView, "_sponsors.html" %>

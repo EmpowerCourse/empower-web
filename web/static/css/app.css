@@ -1,0 +1,243 @@
+  body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: Helvetica, Verdana
+  }
+  div.nav {
+    cursor: pointer;
+  }
+  div#center-container {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    padding: 20px;
+  }
+  div#px { 
+    margin: 40px auto;
+    width: 90%;
+    background-color: #e2fcdb;
+    padding: 100px;
+    border-radius: 18px;
+    font-size: 4em;
+    font-family: Verdana;
+    text-align: center;
+    position: relative;
+  }
+  div#px > div.panel-content {
+    width: 85%;
+    height: 80%;
+    margin: 0 Auto;
+  }
+
+  div.panel {
+    background-color: #e2fcdb;
+    width: 80%;
+    height: 80%;
+    padding: 30px;
+    border-radius: 18px;
+    font-size: 4em;
+    font-family: Verdana;
+    text-align: center;
+    position: absolute;
+  }
+  div.panel > div.panel-content {
+    position: absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div#p2 { top: 1500px; left: 1500px; z-index: 1; }
+  div#p3 { top: 70px; left: 3000px; }
+  div#p4 { top: 1500px; left: 1500px; }
+  div#p5 { top: 4000px; left: 1500px; display: none; }
+  div#page-bottom {
+    position: absolute;
+    top: 5000px;
+    left: 5000px;
+  }
+  h3 { 
+    font-weight: bold; 
+    text-align: center;
+    padding-bottom: 20px;
+    color: #999;
+  }
+  div#apply-row {
+    background-color: #f2f2f2;
+	  padding-top: 8px;    
+    padding-bottom: 20px;
+  }
+  ul.data {
+    margin: 0;
+/*    list-style-image: url('../images/bullet.png'); */
+  }
+  ul.data > li {
+    padding; 0 0 0 3px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 14pt;
+  }
+  ul.nav > li > a, ul.nav > li.active > a {
+    font-size: 15pt;
+  }
+
+  ol.data {
+    margin: 0;
+  }
+  ol.data > li {
+    padding; 0 0 0 3px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 20px;
+  }
+  ol.data ul {
+    margin-top: 0;
+  }
+  a.inverse {
+    font-size: 20px;
+    color: #0000FF;
+    padding: 4px;
+  }
+  a.inverse:hover {
+    color: #FF0000;
+  }
+  li > ol {
+    margin-top: 0;
+  }
+  p {
+    margin: 8px 0;
+    font-size: 15pt;
+  }
+  div.faq-title {
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #444444;
+    margin: 12px 0 2px 8px;
+    padding: 10px;
+  }
+  div.faq-answer {
+    font-size: 15pt;
+    padding: 6px 0 20px 0;
+    margin: 0 0 0 18px;
+  }
+  input.form-control, textarea.form-control {
+    font-size: 15pt;
+  }
+  .tab-pane {
+    padding: 12px;
+  }
+  .tab-pane.active {
+    background-color: #FFFFFF;
+  }
+  label.radio-inline {
+    font-size: 15pt;
+  }
+  form p {
+    font-weight: bold;
+  }
+  input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+  }
+  .radio-inline+.radio-inline {
+    margin-top: 0;
+    margin-left: 25px;
+  }
+a#apply_now, a#apply_now_inverse {
+  z-index:10; 
+  font-weight: bold; 
+  font-size: 24px; 
+  padding: 10px 35px;
+}
+a#apply_now {
+  background-color: #FFFFFF; 
+  color: #333333;
+  margin-top: -150px;
+}
+a#apply_now:hover {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+a#apply_now_inverse {
+  background-color: #333333; 
+  color: #FFFFFF;
+  border: solid 2px #333333;
+  margin-top: 20px;
+}
+a#apply_now_inverse:hover {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+div.row {
+  margin:0;
+  padding: 0;
+  width:100%;
+}
+img#s2_logo {
+  width: 35%;
+}
+/* default */
+p.huge-text {
+  font-size: 2.4em;
+  font-family: Helvetica,Verdana;
+}
+span.huge-text-emphasis {
+  font-size: 42px;
+}
+div#bullet-row {
+  padding: 15px 50px;
+}
+input#phone, input#email {
+  float:left;
+  margin-left: 6px;
+}
+img#empower_logo {
+  height: 140px;
+}
+/* mobile override */
+@media only screen and (max-device-width : 480px) {
+  p.huge-text {
+    font-size: 2em;
+    font-family: Helvetica,Verdana;
+  }
+  span.huge-text-emphasis {
+    font-size: 30px;
+  }
+  a#apply_now, a#apply_now_inverse {
+    font-size: 9pt; 
+    padding: 4px 8px;
+  }
+  a#apply_now {
+    margin-top: -60px;
+  }
+  div#bullet-row {
+    padding: 0;
+  }
+  input#phone, input#email {
+    margin-left: 0;
+  }
+  .radio-inline+.radio-inline {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  img#empower_logo {
+    height: 80px;
+  }
+}
+div.row.inverse-bkg {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+a:hover {
+  text-decoration: none;
+}
+img.other_logo {
+  padding: 20px;
+  width: 200px;
+}
+div.container-fluid {
+  padding: 0;
+}

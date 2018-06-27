@@ -1,0 +1,33 @@
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 30px 0 0 0; font-size: 2em; font-weight: bold;'>
+		Thank you to our sponsors
+	</div>
+</div>
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 0;'>
+		<a href='https://www.vcu.edu/' target='_blank'>
+			<img class='other_logo' src='/images/vcu_logo.png' alt='VCU'/>
+		</a>
+		<a href='https://www.techcareers2020.com/' target='_blank'>
+			<img class='other_logo' src='/images/goler_logo.png' alt='Goler Community Development Corporation'/>
+		</a>
+		<a href='https://www.forsythtech.edu/' target='_blank'>
+			<img class='other_logo' src='/images/ftcc_logo.jpg' alt='Forsyth Technical Community College'/>
+		</a>
+		<a href='http://www.peerpointsolutions.com/' target='_blank'>
+			<img class='other_logo' src='/images/peerpoint_logo.png' alt='PeerPoint Solutions'/>
+		</a>
+		<a href='https://riasolutionsgroup.com/' target='_blank'>
+			<img class='other_logo' src='/images/ria_logo.png' alt='RIA Solutions'/>
+		</a>
+		<a href='http://www.hustlews.org/' target='_blank'>
+			<img class='other_logo' src='/images/hustle_logo.jpg' alt='Hustle'/>
+		</a>
+		<a href='https://www.goodwillnwnc.org/' target='_blank'>
+			<img class='other_logo' src='/images/goodwill_logo.jpg' alt='Goodwill NW NC'/>
+		</a>
+		<a href='http://flywheelcoworking.com/' target='_blank'>
+			<img class='other_logo' src='/images/flywheel_logo.png' style='background-color:#FFFFFF;' alt='Flywheel'/>
+		</a>
+	</div>
+</div>

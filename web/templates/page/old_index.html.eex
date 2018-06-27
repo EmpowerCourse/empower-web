@@ -1,0 +1,72 @@
+<div class='panel' id='p1'>
+  <div class='panel-content'>
+    Are you using your talents at work?<br/>
+    <span id='p1a' style='opacity: 0;'>If not, do you want to?</span>
+  </div>
+  <div class='nav' title='Go' style='transform:rotate(45deg); position:absolute; bottom:15px; right: 15px;' data-target-panel='p2'>
+    <i class='fa fa-arrow-right'></i> 
+  </div>
+</div>
+<div class='panel' id='p2'>
+  <div class='nav pull-right' title='Go' style='transform:rotate(-45deg);' data-target-panel='p3'>
+    <i class='fa fa-arrow-right'></i> 
+  </div>
+  <div class='panel-content'>
+    The best jobs are in software.<br/>
+    Are you ready to go after one?
+  </div>
+</div>
+<div class='panel' id='p3'>
+  <div class='panel-content'>
+    If not now....when?<br/>
+    If not here, where?
+  </div>
+  <div class='nav' title='Go' style='transform:rotate(-45deg); position:absolute; bottom:15px; left: 15px;' data-target-panel='p4'>
+    <i class='fa fa-arrow-left'></i> 
+  </div>
+</div>
+<div class='panel' id='p4'>
+  <div class='panel-content'>
+    We are offering a free training course to people interested in becoming software developers.
+  </div>
+  <div class='nav' title='Go' style='position:absolute; bottom:15px; right: 15px;' data-target-panel='p5'>
+    <i class='fa fa-arrow-down'></i> 
+  </div>
+</div>
+<div class='panel' id='p5'>
+  <div class='panel-content'>
+    Class starts Monday, June 4th, 2018.<br/>
+    Click <a href='/apply'>here</a> for full details and to apply now.
+  </div>
+</div>
+<div id='page-bottom'>&nbsp;</div>
+<script type='text/javascript'>
+// tell Chrome to forget prior scroll positions
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+$(document).ready(function() {
+  var viewPortWd = $(window).width();
+  var viewPortHt = $(window).height();
+  var panelHt = $('div#p1').height();
+  var panelWd = $('div#p1').width();
+  var htOffset = (viewPortHt / 2) - (panelHt / 2);
+  var ltOffset = (viewPortWd / 2) - (panelWd / 2);
+  $('div#p1').css({ top: htOffset, left: ltOffset });
+  setTimeout(function() { 
+    $('span#p1a').animate({ opacity: 1.0 }, 2000);
+  }, 2000);
+  $('.nav').click(function() {
+    var lastPanel = $(this).closest('.panel');
+    var nextPanel = $('#' + $(this).attr('data-target-panel'));
+    nextPanel.show();
+    var addHeight = $(this).attr('data-add-height') === 'true';
+    var addLeft = $(this).attr('data-add-left') === 'true';
+    var top = parseInt(nextPanel.css('top')) - htOffset;
+    var left = parseInt(nextPanel.css('left')) - ltOffset;
+    $('html, body').stop().animate({ scrollTop: top, scrollLeft: left }, 800, 'linear', function() { 
+     lastPanel.hide();
+    });
+  });
+});
+</script>

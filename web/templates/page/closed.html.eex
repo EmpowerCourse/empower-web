@@ -1,0 +1,13 @@
+<div class='row' style='padding-bottom: 15px; padding-top: 15px;'>
+  <div class='col-xs-12 text-center'>
+    <img src='/images/empower_logo.png' alt='Empower - A technology training course from Sightsource' style='height: 120px;'/>
+  </div>
+</div>
+<div id='bullet-row' class='row' style='background-color: #666; color: #FFFFFF;'>
+  <div class='col-xs-10 col-xs-offset-1'>
+    <p>The 2018 Empower training course is now closed to additional applicants.</p>
+    <p>We may coordinate an annual Empower-like course so if you missed this year you may not be completely out of luck.  Contact us through the <a href='http://www.sightsource.net/contact/' target='_blank' style='color: #0000FF; text-decoration: underline;'>Sightsource website</a> to express your interest in a future training opportunity.</p>
+  </div>
+</div>
+<%= render Recruit2018.PageView, "_sponsors.html" %>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

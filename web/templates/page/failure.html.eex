@@ -1,0 +1,7 @@
+<div class='panel' id='p1' style='background-color: #FF0000;'>
+  <div class='panel-content'>
+    We were unable to save your application successfully.<br/>
+    Please try again later.
+  </div>
+</div>
+<div id='page-bottom'>&nbsp;</div>

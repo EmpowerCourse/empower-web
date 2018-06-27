@@ -1,0 +1,59 @@
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 0;'>
+		<img id='img1' src='/images/landing_1.jpeg' alt='' style='width:100%;'/>
+		<a id='apply_now' href='/apply' class='btn btn-lg' target='_blank'>
+			Get More Info &amp; Apply Today
+		</a>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 0;'>
+    	<img id='empower_logo' src='/images/empower_logo.png' alt='Empower - A technology training course from Sightsource'/>
+		<p class='huge-text'>
+			We will select and train up to 40 applicants<br/>
+			<span class='huge-text-emphasis'>FREE</span><br/>
+			to become OUTSTANDING software DEVELOPERS
+		</p>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 30px 0 0 0;'>
+		<img id='img2' src='/images/landing_2.jpeg' alt='' style='width:100%;'/>
+	</div>
+</div>
+<div class='row inverse-bkg'>
+	<div class='col-xs-12 text-center' style='padding: 30px 0;'>
+		<p class='huge-text'>
+			We are partnering with other<br/>
+			<span class='huge-text-emphasis'>LEADING TECH COMPANIES</span><br/>
+			to help land you that perfect developer job you dream of.
+		</p>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 30px 0;'>
+		<p class='huge-text'><span class='huge-text-emphasis'>OUR STORY</span></p>
+		<p class='huge-text'>We are Sightsource, a small software development firm in</p>
+		<p class='huge-text'>Winston-Salem, NC and Richmond, VA.</p>
+		<p class='huge-text'>We are in need of extensively trained developers.</p>
+		<p class='huge-text'>In not finding the pool of candidates needed in our past experience, we've decided to</p>
+		<p class='huge-text'>train potential developers at no charge with an exclusive, invitation-only, intensive</p>
+		<p class='huge-text'>course that will be held to launch motivated applicants</p>
+		<p class='huge-text'>into the software development workplace.</p>
+		<p class='huge-text'>Two training courses will be held simultaneously in both Richmond and</p>
+		<p class='huge-text'>Winston-Salem from June 4th to July 27th, 2018, 8 hours/5 days a week.</p>
+		<p class='huge-text'>This initiative is driven by community sponsors, ourselves and</p>
+		<p class='huge-text'>other leading, local technology employers.</p>
+		<a id='apply_now_inverse' href='/apply' class='btn btn-lg' target='_blank'>
+			Get More Info &amp; Apply Today
+		</a>
+	</div>
+</div>
+<div class='row'>
+	<div class='col-xs-12 text-center' style='padding: 30px 0;'>
+		<a href='http://www.sightsource.net' target='_blank'>
+			<img id='s2_logo' src='/images/s2_logo.png' alt='Sightsource, LLC'/>
+		</a>
+	</div>
+</div>
+<%= render Recruit2018.PageView, "_sponsors.html" %>

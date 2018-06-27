@@ -1,0 +1,252 @@
+<div class='row' style='padding-bottom: 15px; padding-top: 15px;'>
+  <div class='col-xs-12 text-center'>
+    <img src='/images/empower_logo.png' alt='Empower - A technology training course from Sightsource' style='height: 120px;'/>
+  </div>
+</div>
+<div id='bullet-row' class='row' style='background-color: #666; color: #FFFFFF;'>
+  <div class='col-xs-10 col-xs-offset-1'>
+    <ul class='data'>
+      <li>We are Sightsource, a small software development firm in Winston-Salem, NC and Richmond, VA.</li>
+      <li>Only those with serious motivation and willingness to accept immediate employment in one of these 2 cities following the course should apply.</li>
+      <li>This is an invitation-only, free training course that will be held to launch motivated applicants into the software development workplace.</li>
+      <li>Two training courses will be held simultaneously, one in Richmond and one in Winston-Salem from June 4 - July 27 with the week of July 4th off.</li>
+      <li>It will meet 8 hours a day, 5 days a week for each scheduled week.</li>
+      <li>This initiative is driven by community sponsors, ourselves and other local technology employers.  We want to help you launch a technology career.</li>
+      <li>No fee will be charged to attendees but class size is limited and we must be selective since our goal is to hire.</li>
+      <li>No prior experience in software development is required.</li>
+      <li>If this is the opportunity you've been waiting for enter your details below and we'll be in touch.</li>
+    </ul>
+  </div>
+</div>
+<div class='row' id='apply-row' style='padding-top: 0;'>
+  <div class='col-md-10 col-md-offset-1 col-xs-12'>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role='tablist'>
+  	<li class="active"><a  href="#ready" data-toggle="tab">I'm ready to apply</a></li>
+  	<li><a href="#faq" data-toggle="tab">I have more questions</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active clearfix" id="ready">
+    		<form id='f1' method='POST' action="/apply" style='margin-top: 5px;'>
+    			<p>Give us a way to contact you.</p>
+    		  <div class='control-group'>
+    			    <input type="text" class="form-control" style='width:140px; float:left;' id="first_name" name='first_name' placeholder="First Name" maxlength='25'>
+    			    <input type="text" class="form-control" style='width:140px; float:left; margin-left: 6px;' id="last_name" name='last_name' placeholder="Last Name" maxlength='25'>
+    			    <input type="text" class="form-control" id="phone" name='phone' style='width:140px;' placeholder="Phone" maxlength='25'>
+    			    <input type="email" class="form-control" id="email" name='email' style='width:200px;' placeholder="Email" maxlength='150'>
+    			</div>
+          <div class="form-group" style='clear:both; padding-top:15px; margin:0;'>
+            <p>Tell us which class you're interested in attending.</p>
+            <div class='control-group' style='margin-left: 15px;'>
+                <label class='radio-inline'>
+                  <input type="radio" name="class_city" id="class_city_WS" value="Winston-Salem">Winston-Salem, NC
+                </label>
+                <label class='radio-inline'>
+                  <input type="radio" name="class_city" id="class_city_Richmond" value="Richmond">Richmond, VA
+                </label>
+                <label class='radio-inline'>
+                  <input type="radio" name="class_city" id="class_city_Either" value="Either">Either, I'm Mobile
+                </label>
+            </div>
+          </div>
+    		  <div class="form-group" style='clear:both; padding-top:15px;'>
+    			  <p>and tell us why you should be in the class</p>
+    		    <textarea class="form-control" id="reason" name='reason' maxlength='3000' style='width:100%; height: 200px;'></textarea>
+            <div style='font-size: 10pt; color: #666666; text-align:right; margin-top:3px; font-style:italic;'><span id='chars-left'>3000</span> characters remaining</div>
+    		  </div>
+    	    <div class="form-group text-center" style='margin: 0 Auto;'>
+    	      <span id='apply-button' class="btn btn-primary btn-lg">Apply Now</span>
+    	    </div>
+          <div class="g-recaptcha"
+                data-sitekey="6LdvRU0UAAAAACV0e5mwFdz3mwHjB1PL31mv018P"
+                data-callback="performSubmit"
+                data-size="invisible">
+          </div>
+          <input type="hidden" name="_csrf_token" value="<%= get_csrf_token() %>">
+    		</form>
+      </div>
+      <div role="tabpanel" class="tab-pane clearfix" id="faq">
+        <div class='faq-title'>Do I need a Computer Science degree or development experience to apply?</div>
+        <div class='faq-answer'>
+        No.  We are laser-focused on real-world, in-demand software development skills and have a completely pragmatic approach to training what is needed to do the job.
+        </div>
+
+        <div class='faq-title'>Will I be a software developer when I complete the course?</div>
+        <div class='faq-answer'>
+        Upon completion of the course you will be familiar with modern development concepts and will be primed to continue gathering experience either on your own or through an apprenticeship with an experienced development team.
+        </div>
+
+        <div class='faq-title'>What are the minimum applicant requirements?</div>
+        <div class='faq-answer'>
+          You must be at least 18 years of age and have a high school diploma or equivalent.
+        </div>
+
+        <div class='faq-title'>Will I need to provide my own computer?</div>
+        <div class='faq-answer'>
+          We prefer that you bring your own laptop.  The minimum spec is 2GB RAM running Windows 7 or later.  (We'll be using virtual machines in the cloud for most of the work.)
+        </div>
+
+        <div class='faq-title'>What's next if I apply?</div>
+        <div class='faq-answer'>
+          We will review applications promptly.  Promising applicants will be invited for an in person interview.  Invitations to the class will be extended following that interview.
+        </div>
+
+        <div class='faq-title'>What is the dress code?</div>
+        <div class='faq-answer'>
+        Come in comfortable business casual.
+        </div>
+
+        <div class='faq-title'>Is it really free?</div>
+        <div class='faq-answer'>
+        Yes, but you must dedicate yourself to attending every session and we expect you to take ownership of your own success.  This is an opportunity whose benefits will be proportional to your effort.
+        </div>
+
+        <div class='faq-title'>How can it be free?  What's in it for you?</div>
+        <div class='faq-answer'>
+        We are looking to add a small number of people to our team and we are willing to train them.  Training a larger group at the same time is minimal additional trouble and allows us to more accurately assess company fit.
+        </div>
+
+        <div class='faq-title'>How do I apply?</div>
+        <div class='faq-answer'>
+        Provide your details here, tell us why you want to do this and why we should include you in this limited sized class.
+        </div>
+
+        <div class='faq-title'>Will I get a job if I take the course?</div>
+        <div class='faq-answer'>
+        Our motivation to hold this course at our expense is specifically to hire people completing the training.  While we can only hire a small number we will actively market to fellow sponsors and potential employers in the local area to maximize each participant’s chance of finding employment in technology upon course completion.  Put clearly, there is a realistic possibility of a full time, entry-level job in technology but there is no guarantee.
+        </div>
+
+        <div class='faq-title'>What exactly will the course cover?</div>
+        <div class='faq-answer'>
+        <ul>
+          <li>Fundamental Developer Skills
+            <ul>
+              <li>Web application architecture (web server, DNS, browser and other clients)</li>
+              <li>Source control with git</li>
+              <li>Windows for the developer</li>
+              <li>Linux for the developer</li>
+              <li>The cloud, specifically Amazon AWS, Microsoft Azure and Google Cloud</li>
+            </ul>
+          </li>
+          <li>Front End Web Development
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Jquery</li>
+              <li>Bootstrap</li>
+            </ul>
+          </li>
+          <li>Database Design &amp; Development
+            <ul>
+              <li>Relational Database Design with SQL Server, MySQL and PostgreSQL</li>
+              <li>ORMs with NHibernate and ActiveRecord</li>
+            </ul>
+          </li>
+          <li>Server Side Application Development
+            <ul>
+              <li>Object Oriented Programming with both C# and Ruby</li>
+              <li>ASP.net MVC</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </li>
+          <li>Quick perusal of the following will also be provided
+            <ul>
+              <li>Non-relational databases (Mongo, DynamoDB or Elasticsearch)</li>
+              <li>node.js</li>
+              <li>AngularJS</li>
+              <li>Functional Programming with Elixir and Phoenix</li>
+              <li>Angular 5 (Typescript)</li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+        <div class='faq-title'>Will I be paid during the course?</div>
+        <div class='faq-answer'>
+        No.  We understand that going without income for the duration of the course may be difficult, but the potential of securing a promising new career in software development is a life-changing opportunity.  Comparable courses cost $8-12K.
+        </div>
+
+        <div class='faq-title'>Which days/times will the course meet?</div>
+        <div class='faq-answer'>
+        The course is held for 8 hours a day over 8 consecutive calendar weeks, Monday through Friday.  Think of it as a commitment equivalent to going to a job each day.  The entire week of July 4th will be off to provide a break.
+        </div>
+
+        <div class='faq-title'>Where and when will the course be held?</div>
+        <div class='faq-answer'>
+        The class will meet in person in both Winston-Salem, NC and Richmond, VA for 8 weeks with a 1 week intermission in the middle to enable independent study.
+        </div>
+
+        <div class='faq-title'>Should I take the course without being interested in taking a new job in technology?</div>
+        <div class='faq-answer'>
+        No.  All participants must be willing to seriously entertain a job offer and to work in either the Winston-Salem, NC or Richmond, VA area upon completion of the course.
+        </div>
+
+        <div class='faq-title'>What qualities might increase my chance of success?</div>
+        <div class='faq-answer'>
+        <ul>
+          <li>The best software developers are both good problem solvers and are not easily discouraged.</li>
+          <li>You should be willing to learn and not be afraid to teach yourself independently.  Software best practices change rapidly and this career is one of perpetual acquisition of new skills.  (This is also one reason why we don't care if you have a CS degree as the skills you picked up with that degree may already be obsolete.)</li>
+          <li>You must be motivated and be accountable for your own success.  No matter how much we teach you, successful learning is a proactive, self-disciplined process.  Certainty of your objective and mental fortitude will serve you well as you assimilate new skills rapidly.</li>
+          <li>Math skills are nothing to scoff at but we've found that a better determinant of success in this career is a strong facility with reading and writing.</li>
+          <li>Software developers create with the keyboard.  Learn to type if you don't know how.  If you already know how then practice getting faster.</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render Recruit2018.PageView, "_sponsors.html" %>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type='text/javascript'>
+  function performSubmit() {
+    $('form#f1').submit();
+  }
+
+  function updateCharsRemaining() {
+    var MAX_CHARS = 3000;
+    $('#chars-left').html(MAX_CHARS - $('#reason').val().length);
+  }
+
+  $(document).ready(function() {
+    toastr.options.timeOut = 13000;
+    $('#reason').on('keydown change', function() {
+      updateCharsRemaining();
+    });
+    $('input').keypress(function (evt) {
+      var charCode = evt.charCode || evt.keyCode;
+      if (charCode === 13) {
+        $('#apply-button').trigger('click');
+      }
+    });
+    $('#apply-button').click(function() {
+      if (!confirm('Are you sure you\'re ready to submit your application?\nIf not, click cancel to continue editing.')) return;
+      var first_name = $.trim($('#first_name').val());
+      var last_name = $.trim($('#last_name').val());
+      var email = $.trim($('#email').val());
+      var phone = $.trim($('#phone').val());
+      var reason = $.trim($('#reason').val());
+      var class_city = null;
+      var valid = true;
+      toastr.clear();
+      if ($('input[name="class_city"]:checked').length === 0) {
+        toastr.error('Please select the course location that you would be willing to attend.');
+        valid = false;
+      }
+      if (reason === '') {
+        toastr.warning('Please provide some explanation of your fit for the course.  Think about your motivation, any relevant experience, personal history and career plans.');
+        valid = false;
+      }
+      if (first_name === '' || last_name === '') {
+        toastr.error('We need at least your first and last name.');
+        valid = false;
+      }
+      if (email === '' && phone === '') {
+        toastr.error('We need either an email address or a phone number in order to get in touch with you.');
+        valid = false;
+      }
+      if (!valid) return;
+      grecaptcha.execute();
+    });
+  });
+</script>

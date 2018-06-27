@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Empower - A technology training course from Sightsource</title>
+    <script type="text/javascript">
+      window.csrf = <%= raw Poison.encode!(Plug.CSRFProtection.get_csrf_token()) %>;
+    </script>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116199907-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116199907-1');
+</script>
+  </head>
+  <body>
+    <div class="container-fluid">
+<%= render @view_module, @view_template, assigns %>
+    </div>
+  </body>
+</html>
